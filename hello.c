@@ -7,14 +7,16 @@
  *
  */
 #include <stdlib.h>
-#include <stdio.
-int main(int argc, char **argv) {
+#include <stdio.h>
 
+int main(int argc, char **argv) {
+  // Print greeting and major for Samarpan Mohanty
   printf("Hello World, I'm Samarpan Mohanty!\n");
   printf("My major is Computer Engineering!\n");
 
+  // Print greeting and major for Alex Ventura
   printf("Hello World, I'm Alex Ventura (LA)!\n");
   printf("My major is Computer Engineering!\n");
 
-  return 0;
+  return 0; // Properly terminate the main function
 }
