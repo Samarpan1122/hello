@@ -7,7 +7,7 @@
  *
  */
 #include <stdlib.h>
-#include <stdio.h> // Fixed: Added missing closing angle bracket
+#include <std // Fixed: Added missing closing angle bracket
 
 int main(int argc, char **argv) { // Fixed: Added missing curly braces
 
