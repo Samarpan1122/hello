@@ -9,13 +9,17 @@
 #include <stdlib.h>
 #include <stdio.h> // Fixed: Added missing closing angle bracket
 
+void print_hello(const char *name, const char *major) {
+    // Function to print hello message and major
+    printf("Hello World, I'm %s!\n", name);
+    printf("My major is %s!\n", major);
+}
+
 int main(int argc, char **argv) { // Fixed: Added missing curly braces
 
-  printf("Hello World, I'm Samarpan Mohanty!\n");
-  printf("My major is Computer Engineering!\n"); // Fixed: Corrected printf syntax
+    // Using a function to improve maintainability and readability
+    print_hello("Samarpan Mohanty", "Computer Engineering");
+    print_hello("Alex Ventura (LA)", "Computer Engineering");
 
-  printf("Hello World, I'm Alex Ventura (LA)!\n");
-  printf("My major is Computer Engineering!\n");
-
-  return 0; // Fixed: Added missing semicolon
+    return 0; // Fixed: Added missing semicolon
 }
