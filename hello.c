@@ -7,15 +7,15 @@
  *
  */
 #include <stdlib.h>
-#include <stdio // Fixed: Added missing closing angle bracket
+#include <stdio.h> // Fixed: Added missing closing angle bracket
 
 int main(int argc, char **argv) { // Fixed: Added missing curly braces
 
   printf("Hello World, I'm Samarpan Mohanty!\n");
-  printf("My major is Computer Engineering!\n"); // Fixed: Corrected printf syntax
+  printf("My major is Computer Engineering!\n");
 
   printf("Hello World, I'm Alex Ventura (LA)!\n");
   printf("My major is Computer Engineering!\n");
 
-  return 0; // Fixed: Added missing semicolon
+  return 0; // Fixed: Ensured return statement is within the main function
 }
